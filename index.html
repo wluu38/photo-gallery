@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style ref="styles.css"></style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
+    <header>
+        <h2 class="logo">Photo Dump</h2>
+        <nav class="navigation">
+            <a href="#">Galleries</a>
+            <label for="file-upload" class="custom-file-upload">
+                <i class="fa fa-cloud-upload"></i> Import Image
+            </label>
+            <input id="file-upload" type="file"/>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col">
+            <img src="images/image1.jpg">
+            <img id="chosenImage" src="images/image2.jpg">
+        </div>  
+    </div>
     <script src="script.js"></script>
 </body>
-</html>
+</html>     
