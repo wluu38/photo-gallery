@@ -2,18 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
-
 body {
-    display: flex;
-    align-items: center;
-    min-height: 100vb;
     background: url('images/background.jpg') no-repeat;    
     background-size: cover;
     background-position: center;
 }
-
 header {
     position: fixed;
     top: 0;
@@ -24,12 +19,18 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background: transparent;
 }
 
 .logo {
     font-size: 2em;
     color:black;
     user-select: none; 
+    background: transparent;
+}
+
+.navigation {
+    background: transparent;
 }
 
 .navigation a {
@@ -39,6 +40,7 @@ header {
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+    background: transparent;
 }
 
 .navigation a::after {
@@ -84,30 +86,38 @@ input[type="file"] {
 .navigation .custom-file-upload:hover {
     background: black;
     color: white;
+    
 }
 
-.row {
+i {
+    background: transparent;
+}
+
+.container {
+    width: 100%;
     display: flex;
-}
-.row .col {
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-div img {
+.gallery {
+    margin-top: 100px;
+}
+
+.gallery a img {
     object-fit: cover;
-    position: relative;
     width: 300px;
     height: 300px;
     margin: 25px;
     padding: 15px;
     padding-bottom: 60px;
     background-color: white;
-    box-shadow: 5px 10px 20px;
-    transition: .25s
+    box-shadow: 5px 10px 20px black;
+    transition: .25s;
 }
 
-div img:hover {
+.gallery a img:hover {
     cursor: pointer;
-    transform:scale(1.3);
+    transform:scale(1.4);
     z-index: 2;
 }
