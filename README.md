@@ -15,7 +15,7 @@ Photo Dump is a web application that allows users to upload and view images in a
 - **CSS**: Styling, including a grid-based layout for the gallery.
 - **JavaScript**: Handles file upload, gallery updates, and lightbox functionality.
 - **Font Awesome**: Used for icons in the upload button.
-- **Lightbox Plugin**: For enhanced image viewing in a modal.
+- **Lightbox Plugin**: For enhanced image viewing.
 
 ## Installation
 
