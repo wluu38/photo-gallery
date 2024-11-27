@@ -1,6 +1,6 @@
 # Photo Gallery
 
-Photo Dump is a web application that allows users to upload and view images in a gallery format. Users can easily add images in `.jpg` or `.png` format to the gallery, which displays in a lightbox view when clicked. This project utilizes HTML, CSS, and JavaScript for handling file uploads and dynamically updating a gallery.
+Photo Dump is a web application that allows users to upload and view images in a gallery format. Users can add images in `.jpg` or `.png` format to the gallery, which displays in a lightbox view when clicked. This project utilizes HTML, CSS, and JavaScript for handling file uploads and dynamically updating a gallery.
 
 ## Features
 
